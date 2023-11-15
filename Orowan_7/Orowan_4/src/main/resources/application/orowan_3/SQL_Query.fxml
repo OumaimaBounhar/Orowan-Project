@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="237.0" prefWidth="603.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <TextField fx:id="sql" layoutX="252.0" layoutY="80.0" prefHeight="26.0" prefWidth="200.0" promptText="Query Data from SQL " />
+        <Text layoutX="252.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Enteer the Query Data SQL: " wrappingWidth="287.1999816894531" />
+        <ScrollPane fx:id="result" layoutX="252.0" layoutY="119.0" prefHeight="70.0" prefWidth="324.0" />
+      <AnchorPane prefHeight="237.0" prefWidth="229.0" style="-fx-background-color: #BFDCE5;">
+         <children>
+            <AnchorPane layoutX="11.0" layoutY="53.0" prefHeight="170.0" prefWidth="206.0" style="-fx-background-color: #FFFFFF; -fx-border-radius: 5;">
+               <children>
+                    <Button fx:id="input" layoutX="125.0" layoutY="53.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="67.0" style="-fx-background-color: F5F5F5; -fx-border-color: #848484; -fx-border-radius: 3;" text="Input" />
+                  <Text fill="#3c3c44" layoutX="11.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input: " wrappingWidth="103.0">
+                     <font>
+                        <Font name="Arial" size="13.0" />
+                     </font>
+                  </Text>
+                    <Button fx:id="coef" layoutX="125.0" layoutY="92.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="67.0" style="-fx-background-color: F5F5F5; -fx-border-color: #848484; -fx-border-radius: 3;" text="Output" />
+                    <Button fx:id="other" layoutX="125.0" layoutY="131.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="67.0" style="-fx-background-color: F5F5F5; -fx-border-color: #848484; -fx-border-radius: 3;" text="Query" />
+                  <Text fill="#3c3c44" layoutX="10.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Output:" wrappingWidth="103.0" />
+                  <Text fill="#3c3c44" layoutX="10.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Query Data:" wrappingWidth="67.0" />
+                  <Text fill="#343434" layoutX="10.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Select One to Consult:" wrappingWidth="185.521484375">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+              <Text fill="#343434" layoutX="28.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Consulting Table" textAlignment="CENTER" wrappingWidth="171.521484375">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>

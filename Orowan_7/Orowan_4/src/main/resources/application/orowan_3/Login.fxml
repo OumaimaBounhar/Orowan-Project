@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane fx:id="second" prefHeight="242.0" prefWidth="478.0" style="-fx-background-color: #EEEEEE;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.orowan_3.Password">
+    <children>
+      <AnchorPane layoutX="224.0" layoutY="21.0" prefHeight="200.0" prefWidth="231.0" style="-fx-background-color: #FFFFFF; -fx-border-color: BDCDD6;">
+         <children>
+              <Text fill="#00235b" fontSmoothingType="LCD" layoutX="89.0" layoutY="27.0" stroke="#0e008a" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN" textAlignment="CENTER" underline="true">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Text>
+              <Text layoutX="27.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please Identify Your Passwords" />
+              <PasswordField fx:id="password" layoutX="26.0" layoutY="102.0" prefHeight="26.0" prefWidth="185.0" />
+              <TextFlow fx:id="txt" layoutX="19.0" layoutY="137.0" prefHeight="25.0" prefWidth="200.0" textAlignment="CENTER" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="242.0" prefWidth="200.0" style="-fx-background-color: #BFDCE5; -fx-border-color: BDCDD6;">
+         <children>
+            <Text fill="#00235b" layoutX="16.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OROWAN">
+               <font>
+                  <Font name="Arial Bold" size="36.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+    </children>
+</AnchorPane>
